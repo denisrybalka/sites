@@ -1,0 +1,464 @@
+/* line 4, ../scss/style.scss */
+html {
+  font-family: "Arial";
+}
+
+/* line 7, ../scss/style.scss */
+section.header {
+  width: 100%;
+}
+/* line 9, ../scss/style.scss */
+section.header header {
+  width: 100%;
+  background: #00BFF3;
+}
+/* line 13, ../scss/style.scss */
+section.header header .header-wrap {
+  height: 104px;
+  display: flex;
+  align-items: center;
+  color: white;
+  font-size: 16px;
+  line-height: 18px;
+  text-align: center;
+}
+/* line 22, ../scss/style.scss */
+section.header header .header-wrap .logo, section.header header .header-wrap .back-call, section.header header .header-wrap .social {
+  flex: 5;
+}
+/* line 25, ../scss/style.scss */
+section.header header .header-wrap .info {
+  flex: 6;
+  text-align: left;
+}
+/* line 29, ../scss/style.scss */
+section.header header .header-wrap .phone {
+  font-size: 30px;
+  line-height: 34px;
+}
+/* line 33, ../scss/style.scss */
+section.header header .header-wrap .back-call {
+  flex: 4;
+}
+
+@media (max-width: 768px) {
+  /* line 42, ../scss/style.scss */
+  section.header .info, section.header .phone, section.header .back-call, section.header .social {
+    display: none;
+  }
+}
+/* line 48, ../scss/style.scss */
+section.main .main-wrap {
+  background: white url(../img/image.jpg) no-repeat;
+  z-index: 1;
+  background-size: cover;
+  height: 553px;
+  margin-top: 24px;
+  position: relative;
+}
+/* line 56, ../scss/style.scss */
+section.main .main-wrap .tour-info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 250px;
+  height: 250px;
+  border-radius: 60%;
+  background: rgba(255, 242, 0, 0.7);
+  position: absolute;
+  left: 30px;
+  bottom: 30px;
+}
+/* line 67, ../scss/style.scss */
+section.main .main-wrap .tour-info .tour-info-wrap {
+  text-align: center;
+}
+/* line 69, ../scss/style.scss */
+section.main .main-wrap .tour-info .tour-info-wrap h1 {
+  font-size: 25px;
+  line-height: 29px;
+  text-align: center;
+  margin-bottom: 15px;
+}
+/* line 75, ../scss/style.scss */
+section.main .main-wrap .tour-info .tour-info-wrap h2 {
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+/* line 82, ../scss/style.scss */
+section.main .main-wrap .tour-info .tour-info-wrap .code {
+  padding: 5px 2px;
+  background-color: black;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+@media (max-width: 480px) {
+  /* line 97, ../scss/style.scss */
+  section.main .main-wrap .tour-info {
+    left: 20%;
+    bottom: 25%;
+  }
+}
+/* line 106, ../scss/style.scss */
+section.review .review-wrap {
+  display: flex;
+}
+/* line 109, ../scss/style.scss */
+section.review .review-wrap .hotel-review {
+  flex: 2;
+}
+/* line 112, ../scss/style.scss */
+section.review .review-wrap .hotel-review .review-info {
+  display: flex;
+}
+/* line 115, ../scss/style.scss */
+section.review .review-wrap .hotel-review .review-info h1 {
+  margin-bottom: 0;
+  padding: 0;
+}
+/* line 119, ../scss/style.scss */
+section.review .review-wrap .hotel-review .review-info .hotel-name {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+  margin-right: 20px;
+  transition: 0.1s ease;
+  cursor: pointer;
+}
+/* line 125, ../scss/style.scss */
+section.review .review-wrap .hotel-review .review-info .hotel-name:hover {
+  color: #CB0000;
+  border-bottom: 1px solid rgba(203, 0, 0, 0.25);
+}
+/* line 129, ../scss/style.scss */
+section.review .review-wrap .hotel-review .review-info .stars-block {
+  display: flex;
+  margin-right: 20px;
+}
+/* line 132, ../scss/style.scss */
+section.review .review-wrap .hotel-review .review-info .stars-block img {
+  margin-top: 24px;
+  width: 27px;
+  height: 26px;
+}
+/* line 139, ../scss/style.scss */
+section.review .review-wrap .hotel-review .review-marks {
+  display: flex;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  margin-top: 30px;
+}
+/* line 145, ../scss/style.scss */
+section.review .review-wrap .hotel-review .review-marks p {
+  font-size: 12px;
+  line-height: 14px;
+  margin: 0;
+  padding: 0;
+}
+/* line 151, ../scss/style.scss */
+section.review .review-wrap .hotel-review .review-marks b {
+  font-size: 18px;
+  line-height: 21px;
+}
+/* line 156, ../scss/style.scss */
+section.review .review-wrap .hotel-review .review-marks .users-marks, section.review .review-wrap .hotel-review .review-marks .marks-block, section.review .review-wrap .hotel-review .review-marks .mark {
+  flex: 3;
+}
+/* line 160, ../scss/style.scss */
+section.review .review-wrap .hotel-review .review-marks .users-marks p, section.review .review-wrap .hotel-review .review-marks .users-marks b {
+  font-size: 14px;
+  line-height: 16px;
+  text-transform: none;
+}
+/* line 167, ../scss/style.scss */
+section.review .review-wrap .hotel-review .review-marks .mark .mark-wrap {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 52px;
+  height: 52px;
+  background: #00BFF3;
+}
+/* line 175, ../scss/style.scss */
+section.review .review-wrap .hotel-review .review-marks .mark .mark-wrap p {
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  color: #FFFFFF;
+}
+/* line 185, ../scss/style.scss */
+section.review .review-wrap .days-num {
+  background-image: url(../img/sfd483.png);
+  background-position: center;
+  width: fit-content;
+  flex: 2;
+  z-index: 999;
+  position: relative;
+  top: -60px;
+}
+/* line 194, ../scss/style.scss */
+section.review .review-wrap .days-num h1 {
+  font-size: 88px;
+  line-height: 102px;
+  letter-spacing: -0.05em;
+  text-transform: uppercase;
+  text-align: center;
+  color: #777777;
+  margin: 0;
+  padding: 0;
+  padding-top: 30px;
+}
+/* line 205, ../scss/style.scss */
+section.review .review-wrap .days-num h2 {
+  font-size: 30px;
+  line-height: 31px;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+@media (max-width: 768px) {
+  /* line 217, ../scss/style.scss */
+  section.review .review-wrap .days-num {
+    background-image: none;
+    flex: 0;
+    top: 0px;
+    margin: 0 auto;
+  }
+
+  /* line 223, ../scss/style.scss */
+  section.review .review-wrap {
+    display: block;
+    width: fit-content;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 480px) {
+  /* line 231, ../scss/style.scss */
+  section.review .review-wrap .hotel-review .review-marks {
+    display: block;
+    width: fit-content;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  /* line 237, ../scss/style.scss */
+  section.review .review-wrap .hotel-review .review-marks .marks-block, .users-marks, .mark {
+    margin-bottom: 20px;
+  }
+
+  /* line 240, ../scss/style.scss */
+  section.review .review-wrap .hotel-review .review-marks .mark .mark-wrap {
+    margin: 0 auto;
+  }
+
+  /* line 243, ../scss/style.scss */
+  section.review .review-wrap .hotel-review .review-info .stars-block {
+    width: fit-content;
+    margin-right: 0px;
+    margin: 0 auto;
+  }
+
+  /* line 248, ../scss/style.scss */
+  section.review .review-wrap .hotel-review .review-info h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  /* line 252, ../scss/style.scss */
+  section.review .review-wrap .hotel-review .review-info {
+    display: block;
+  }
+}
+/* line 256, ../scss/style.scss */
+section.travel {
+  margin-top: 55px;
+}
+/* line 258, ../scss/style.scss */
+section.travel .travel-wrap {
+  display: flex;
+  justify-content: space-between;
+}
+/* line 264, ../scss/style.scss */
+section.travel .travel-wrap .travel-offer h1, section.travel .travel-wrap .travel-offer h2, section.travel .travel-wrap .travel-offer h3 {
+  margin: 0;
+  padding: 0;
+}
+/* line 268, ../scss/style.scss */
+section.travel .travel-wrap .travel-offer h1 {
+  font-size: 35px;
+  line-height: 41px;
+  margin-top: 24px;
+}
+/* line 273, ../scss/style.scss */
+section.travel .travel-wrap .travel-offer .travel-info-name {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+  transition: 0.1s ease;
+  cursor: pointer;
+}
+/* line 278, ../scss/style.scss */
+section.travel .travel-wrap .travel-offer .travel-info-name:hover {
+  color: #CB0000;
+  border-bottom: 1px solid rgba(203, 0, 0, 0.25);
+}
+/* line 282, ../scss/style.scss */
+section.travel .travel-wrap .travel-offer h2 {
+  font-size: 14px;
+  line-height: 19px;
+  margin-top: 10px;
+}
+/* line 287, ../scss/style.scss */
+section.travel .travel-wrap .travel-offer h3 {
+  font-size: 20px;
+  line-height: 23px;
+  color: #777777;
+  text-decoration: line-through;
+}
+/* line 293, ../scss/style.scss */
+section.travel .travel-wrap .travel-offer .travel-info {
+  display: flex;
+  justify-content: space-between;
+}
+/* line 297, ../scss/style.scss */
+section.travel .travel-wrap .travel-offer .salary {
+  display: flex;
+  justify-content: space-between;
+}
+/* line 301, ../scss/style.scss */
+section.travel .travel-wrap .travel-offer .salary .salary-span {
+  color: #CB0000;
+  text-decoration: line-through;
+}
+/* line 305, ../scss/style.scss */
+section.travel .travel-wrap .travel-offer .salary .salary-span .salary-span-inside {
+  color: #777;
+  font-size: 20px;
+  line-height: 23px;
+}
+
+@media (max-width: 1280px) {
+  /* line 318, ../scss/style.scss */
+  section.travel .travel-wrap {
+    display: block;
+    width: 70%;
+    margin: 50px auto;
+  }
+  /* line 322, ../scss/style.scss */
+  section.travel .travel-wrap img {
+    width: 100%;
+    height: 100%;
+  }
+  /* line 327, ../scss/style.scss */
+  section.travel .travel-offer:first-child {
+    margin-bottom: 50px;
+  }
+}
+/* line 335, ../scss/style.scss */
+section.content .content-title {
+  font-size: 50px;
+  line-height: 52px;
+  margin-top: 65px;
+  margin-bottom: 15px;
+}
+/* line 341, ../scss/style.scss */
+section.content .content-wrap {
+  display: flex;
+}
+/* line 344, ../scss/style.scss */
+section.content .content-wrap .text-block {
+  flex: 3;
+}
+/* line 347, ../scss/style.scss */
+section.content .content-wrap .text-block .focused-text {
+  border-left: 8px solid #00BFF3;
+  margin-left: 50px;
+}
+/* line 350, ../scss/style.scss */
+section.content .content-wrap .text-block .focused-text p {
+  padding-left: 16px;
+}
+/* line 354, ../scss/style.scss */
+section.content .content-wrap .text-block .table {
+  width: 100%;
+  overflow: auto;
+}
+/* line 357, ../scss/style.scss */
+section.content .content-wrap .text-block .table table {
+  width: 100%;
+  overflow: auto;
+  border-collapse: collapse;
+}
+/* line 361, ../scss/style.scss */
+section.content .content-wrap .text-block .table table th, section.content .content-wrap .text-block .table table td {
+  padding: 10px;
+}
+/* line 364, ../scss/style.scss */
+section.content .content-wrap .text-block .table table thead {
+  text-align: left;
+  background: rgba(119, 119, 119, 0.25);
+}
+/* line 370, ../scss/style.scss */
+section.content .content-wrap .text-block li {
+  list-style-type: none;
+  padding-bottom: 10px;
+}
+/* line 374, ../scss/style.scss */
+section.content .content-wrap .text-block li::before {
+  content: "— ";
+}
+/* line 379, ../scss/style.scss */
+section.content .content-wrap .right-side-text {
+  flex: 1;
+  color: #777777;
+}
+/* line 383, ../scss/style.scss */
+section.content .content-wrap .right-side-text .right-side-text-wrap {
+  margin-left: 40px;
+  margin-top: 40%;
+  font-family: "Trebuchet MS";
+}
+/* line 387, ../scss/style.scss */
+section.content .content-wrap .right-side-text .right-side-text-wrap h1 {
+  margin: 0;
+  padding: 0;
+  font-size: 100px;
+  line-height: 116px;
+  letter-spacing: -0.05em;
+}
+/* line 394, ../scss/style.scss */
+section.content .content-wrap .right-side-text .right-side-text-wrap h2 {
+  font-size: 30px;
+  line-height: 31px;
+  color: black;
+}
+/* line 399, ../scss/style.scss */
+section.content .content-wrap .right-side-text .right-side-text-wrap p {
+  font-size: 20px;
+  line-height: 25px;
+}
+
+@media (max-width: 1024px) {
+  /* line 410, ../scss/style.scss */
+  section.content .content-wrap {
+    display: block;
+  }
+  /* line 413, ../scss/style.scss */
+  section.content .content-wrap .right-side-text .right-side-text-wrap {
+    margin-top: 20px;
+    margin-left: 0;
+  }
+}
+/* line 422, ../scss/style.scss */
+footer .footer-wrap {
+  display: flex;
+  justify-content: space-between;
+}
+/* line 425, ../scss/style.scss */
+footer .footer-wrap .social {
+  margin-top: 10px;
+}
