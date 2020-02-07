@@ -1,0 +1,54 @@
+$font: "Museo Sans Cyrl 300";
+h1.title {
+	text-align: center;
+	color: #535353;
+	font-size: 36px;
+	font-weight: 400;
+
+	padding-top: 80px;
+	margin-bottom: 100px;
+}
+
+button.main-btn {
+	box-shadow: 0 5px 5px rgba(1, 1, 1, 0.1);
+	border-radius: 23px;
+	background-color: #68b0c9;
+	border:none;
+
+	color: #ffffff;
+	font-size: 14px;
+	text-align: center;
+	width: 220px;
+	height: 45px;
+	border-radius: 20px;
+	margin: 0 auto;
+	margin-bottom: 15px;
+	cursor: pointer;
+}
+
+.salary-wrap {
+	display: flex;
+	.salary-info {
+		display: flex;
+		justify-content: flex-end;
+		align-items: center;
+		width: 50%;
+		.salary-info-block {
+			width: 150px;
+			height: 150px;
+			background-color: #ffffff;
+			border-radius:90px;
+			text-align: center;
+			p {
+				color: #1e1e1e;
+				font-size: 18px;
+				text-decoration: line-through;
+				margin-top: 30px;
+			}
+			h3 {
+				color: #d04545;
+				font-size: 30px;
+			}
+		}
+	}
+}

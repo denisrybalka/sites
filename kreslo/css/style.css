@@ -1,0 +1,602 @@
+/* line 2, ../scss/_vars.scss */
+h1.title {
+  text-align: center;
+  color: #535353;
+  font-size: 36px;
+  font-weight: 400;
+  padding-top: 80px;
+  margin-bottom: 100px;
+}
+
+/* line 12, ../scss/_vars.scss */
+button.main-btn {
+  box-shadow: 0 5px 5px rgba(1, 1, 1, 0);
+  border-radius: 23px;
+  background-color: #68b0c9;
+  border: none;
+  color: #ffffff;
+  font-size: 14px;
+  text-align: center;
+  width: 220px;
+  height: 45px;
+  border-radius: 20px;
+  margin: 0 auto;
+  margin-bottom: 15px;
+  cursor: pointer;
+}
+
+/* line 29, ../scss/_vars.scss */
+.salary-wrap {
+  display: flex;
+}
+/* line 31, ../scss/_vars.scss */
+.salary-wrap .salary-info {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 50%;
+}
+/* line 36, ../scss/_vars.scss */
+.salary-wrap .salary-info .salary-info-block {
+  width: 150px;
+  height: 150px;
+  background-color: #ffffff;
+  border-radius: 90px;
+  text-align: center;
+}
+/* line 42, ../scss/_vars.scss */
+.salary-wrap .salary-info .salary-info-block p {
+  color: #1e1e1e;
+  font-size: 18px;
+  text-decoration: line-through;
+  margin-top: 30px;
+}
+/* line 48, ../scss/_vars.scss */
+.salary-wrap .salary-info .salary-info-block h3 {
+  color: #d04545;
+  font-size: 30px;
+}
+
+/* line 2, ../scss/style.scss */
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Museo Sans Cyrl 300";
+}
+
+/* line 8, ../scss/style.scss */
+header {
+  height: 100px;
+}
+/* line 10, ../scss/style.scss */
+header .header-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/* line 15, ../scss/style.scss */
+header .header-wrap .phone span {
+  color: #5e5e5e;
+  font-size: 24px;
+  font-weight: 400;
+}
+/* line 20, ../scss/style.scss */
+header .header-wrap .phone p {
+  color: #5892a6;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+/* line 29, ../scss/style.scss */
+section.main {
+  background: white url(../img/background-main.png) 0 0 no-repeat;
+  background-position: center;
+}
+/* line 32, ../scss/style.scss */
+section.main .main-wrap {
+  display: flex;
+  align-items: flex-end;
+  flex-direction: column;
+  text-align: right;
+  font-weight: 400;
+}
+/* line 38, ../scss/style.scss */
+section.main .main-wrap h1 {
+  padding-top: 80px;
+  color: #535353;
+  font-size: 41px;
+  margin-bottom: 0;
+}
+/* line 44, ../scss/style.scss */
+section.main .main-wrap h2 {
+  color: #5892a6;
+  font-size: 27px;
+  margin-top: 0;
+  margin-bottom: 60px;
+}
+/* line 50, ../scss/style.scss */
+section.main .main-wrap h3 {
+  color: #5892a6;
+  font-size: 20px;
+}
+/* line 54, ../scss/style.scss */
+section.main .main-wrap p {
+  font-size: 12px;
+}
+/* line 57, ../scss/style.scss */
+section.main .main-wrap .form {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 300px;
+  height: 240px;
+  box-shadow: 0 0 38px rgba(104, 176, 201, 0.34);
+  border-radius: 20px;
+  background-color: #ffffff;
+  margin-bottom: 35px;
+}
+/* line 68, ../scss/style.scss */
+section.main .main-wrap .form input, section.main .main-wrap .form button {
+  text-align: center;
+  width: 220px;
+  height: 45px;
+  border-radius: 20px;
+  margin: 0 auto;
+  margin-bottom: 15px;
+}
+/* line 76, ../scss/style.scss */
+section.main .main-wrap .form input {
+  border: 1px solid #e8e8e8;
+}
+
+/* line 85, ../scss/style.scss */
+section.about .about-wrap .about-block {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+/* line 89, ../scss/style.scss */
+section.about .about-wrap .about-block .text-block {
+  max-width: 400px;
+  margin-right: 100px;
+  font-weight: 400px;
+}
+/* line 94, ../scss/style.scss */
+section.about .about-wrap .about-block .text-block h2 {
+  color: #68b0c9;
+  font-size: 30px;
+}
+/* line 98, ../scss/style.scss */
+section.about .about-wrap .about-block .text-block p {
+  color: #535353;
+  font-size: 18px;
+}
+/* line 104, ../scss/style.scss */
+section.about .about-wrap .about-block:nth-child(odd) {
+  flex-direction: row-reverse;
+  text-align: right;
+}
+/* line 107, ../scss/style.scss */
+section.about .about-wrap .about-block:nth-child(odd) .text-block {
+  margin-left: 100px;
+}
+
+/* line 114, ../scss/style.scss */
+section.salary {
+  background: white url(../img/background-second.png) 0 0 no-repeat;
+  background-position: center;
+  height: 490px;
+}
+/* line 118, ../scss/style.scss */
+section.salary .salary-wrap {
+  display: flex;
+}
+/* line 120, ../scss/style.scss */
+section.salary .salary-wrap .salary-info, section.salary .salary-wrap .salary-block {
+  width: 50%;
+}
+/* line 123, ../scss/style.scss */
+section.salary .salary-wrap .salary-info {
+  height: 490px;
+}
+/* line 126, ../scss/style.scss */
+section.salary .salary-wrap .salary-block {
+  text-align: center;
+}
+/* line 128, ../scss/style.scss */
+section.salary .salary-wrap .salary-block h1, section.salary .salary-wrap .salary-block h2 {
+  margin: 0;
+  padding: 0;
+  text-transform: uppercase;
+  color: #535353;
+}
+/* line 134, ../scss/style.scss */
+section.salary .salary-wrap .salary-block h1 {
+  font-size: 55px;
+  margin-top: 70px;
+  margin-bottom: 20px;
+}
+/* line 139, ../scss/style.scss */
+section.salary .salary-wrap .salary-block h2 {
+  font-size: 26px;
+}
+/* line 142, ../scss/style.scss */
+section.salary .salary-wrap .salary-block li {
+  margin-top: 20px;
+  margin-bottom: 40px;
+  color: #68b0c9;
+  font-size: 25px;
+  list-style-image: url(../img/present.png);
+}
+/* line 149, ../scss/style.scss */
+section.salary .salary-wrap .salary-block .salary-block-order {
+  width: 275px;
+  height: 200px;
+  margin: 0 auto;
+  border-radius: 23px;
+  border: 5px solid #ffffff;
+}
+/* line 155, ../scss/style.scss */
+section.salary .salary-wrap .salary-block .salary-block-order .salary-block-order-text {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 40px;
+}
+/* line 159, ../scss/style.scss */
+section.salary .salary-wrap .salary-block .salary-block-order .salary-block-order-text img {
+  width: 48px;
+  height: 43px;
+}
+/* line 163, ../scss/style.scss */
+section.salary .salary-wrap .salary-block .salary-block-order .salary-block-order-text p {
+  margin: 0;
+  padding: 0;
+}
+/* line 168, ../scss/style.scss */
+section.salary .salary-wrap .salary-block .salary-block-order button {
+  margin-top: 35px;
+}
+
+/* line 177, ../scss/style.scss */
+section.count .count-wrap {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+}
+/* line 181, ../scss/style.scss */
+section.count .count-wrap .count-block {
+  background: white url(../img/background-count.png) 0 0 no-repeat;
+  background-position: center;
+  margin: 70px 0px;
+}
+/* line 185, ../scss/style.scss */
+section.count .count-wrap .count-block h1 {
+  color: #68b0c9;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 41px;
+}
+/* line 191, ../scss/style.scss */
+section.count .count-wrap .count-block p {
+  color: #535353;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+/* line 200, ../scss/style.scss */
+section.documentary {
+  background-image: linear-gradient(to bottom, #f9fbfd 0%, #ecf3f8 100%);
+}
+/* line 202, ../scss/style.scss */
+section.documentary .documentary-wrap {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 90px;
+}
+/* line 206, ../scss/style.scss */
+section.documentary .documentary-wrap .doc-info {
+  width: 400px;
+}
+/* line 208, ../scss/style.scss */
+section.documentary .documentary-wrap .doc-info .doc-info-head {
+  display: flex;
+}
+/* line 210, ../scss/style.scss */
+section.documentary .documentary-wrap .doc-info .doc-info-head h1 {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 50px;
+  color: #68b0c9;
+  font-size: 22px;
+  font-weight: 600;
+  margin-left: 22px;
+}
+/* line 219, ../scss/style.scss */
+section.documentary .documentary-wrap .doc-info .doc-info-head img {
+  width: 48px;
+  height: 41px;
+}
+/* line 224, ../scss/style.scss */
+section.documentary .documentary-wrap .doc-info p {
+  color: #323232;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+/* line 233, ../scss/style.scss */
+section.info {
+  background: white url(../img/background33.png) 0 0 no-repeat;
+  background-position: center;
+}
+/* line 236, ../scss/style.scss */
+section.info .info-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 80px 0px;
+}
+/* line 241, ../scss/style.scss */
+section.info .info-wrap .info-block {
+  max-width: 250px;
+}
+/* line 243, ../scss/style.scss */
+section.info .info-wrap .info-block h1 {
+  color: #68b0c9;
+  font-size: 20px;
+  font-weight: 400;
+}
+/* line 248, ../scss/style.scss */
+section.info .info-wrap .info-block p {
+  color: #606060;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+/* line 257, ../scss/style.scss */
+section.order {
+  background: white url(../img/background-one-more.png) 0 0 no-repeat;
+  background-position: center;
+}
+/* line 261, ../scss/style.scss */
+section.order .order-wrap .order-info {
+  height: 348px;
+}
+/* line 264, ../scss/style.scss */
+section.order .order-wrap .order-block {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 0 auto;
+}
+/* line 270, ../scss/style.scss */
+section.order .order-wrap .order-block h1, section.order .order-wrap .order-block h2 {
+  margin: 0;
+  padding: 0;
+}
+/* line 274, ../scss/style.scss */
+section.order .order-wrap .order-block h1 {
+  color: #535353;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+/* line 279, ../scss/style.scss */
+section.order .order-wrap .order-block h2 {
+  color: #68b0c9;
+  background-color: #fff;
+}
+/* line 283, ../scss/style.scss */
+section.order .order-wrap .order-block input {
+  width: 260px;
+  height: 46px;
+  border-radius: 20px;
+  border: 1px solid #d5e4ef;
+  background-color: #ffffff;
+  margin: 30px 0px;
+  text-align: center;
+}
+/* line 292, ../scss/style.scss */
+section.order .order-wrap .order-block button {
+  width: 260px;
+}
+
+/* line 299, ../scss/style.scss */
+section.features {
+  background: white url(../img/kresloo.png) 0 0 no-repeat;
+  background-position: center;
+  background-position-y: center;
+}
+/* line 303, ../scss/style.scss */
+section.features .span-block {
+  display: flex;
+  justify-content: center;
+  margin: 50px 0px;
+}
+/* line 307, ../scss/style.scss */
+section.features .span-block span {
+  color: #535353;
+  font-size: 22px;
+}
+/* line 311, ../scss/style.scss */
+section.features .span-block span:nth-child(2) {
+  color: #68b0c9;
+  margin-left: 40px;
+}
+/* line 316, ../scss/style.scss */
+section.features .features-wrap {
+  display: flex;
+  justify-content: space-between;
+}
+/* line 319, ../scss/style.scss */
+section.features .features-wrap .features {
+  font-size: 15px;
+  color: #939393;
+}
+/* line 322, ../scss/style.scss */
+section.features .features-wrap .features p {
+  max-width: 200px;
+}
+/* line 326, ../scss/style.scss */
+section.features .features-wrap .features-2 {
+  color: #68b0c9;
+}
+
+/* line 332, ../scss/style.scss */
+section.contacts {
+  background-color: #ecf3f8;
+}
+/* line 334, ../scss/style.scss */
+section.contacts .contacts-wrap {
+  display: flex;
+  justify-content: center;
+  padding: 50px 0px;
+}
+/* line 338, ../scss/style.scss */
+section.contacts .contacts-wrap .contacts-info {
+  text-align: center;
+  margin-left: 10%;
+}
+/* line 341, ../scss/style.scss */
+section.contacts .contacts-wrap .contacts-info p {
+  color: #535353;
+  font-size: 16px;
+  font-weight: 400;
+}
+/* line 346, ../scss/style.scss */
+section.contacts .contacts-wrap .contacts-info h1 {
+  color: #68b0c9;
+  font-size: 20px;
+}
+
+/* line 355, ../scss/style.scss */
+footer .footer-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/* line 359, ../scss/style.scss */
+footer .footer-wrap p {
+  margin: 0;
+  padding: 0;
+  color: #505050;
+  font-size: 14px;
+  font-weight: 400;
+}
+/* line 366, ../scss/style.scss */
+footer .footer-wrap a {
+  color: #68b0c9;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+/* line 373, ../scss/style.scss */
+.modal {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  top: 0%;
+  left: 0%;
+  z-index: 999;
+  display: none;
+}
+/* line 381, ../scss/style.scss */
+.modal .popup {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 300px;
+  box-shadow: 0 0 38px rgba(104, 176, 201, 0.34);
+  border-radius: 20px;
+  background-color: #ffffff;
+}
+/* line 393, ../scss/style.scss */
+.modal .popup input {
+  width: 220px;
+  height: 40px;
+  border-radius: 20px;
+  border: 1px solid #e8e8e8;
+  margin: 20px auto;
+  text-align: center;
+  cursor: pointer;
+}
+
+/* line 405, ../scss/style.scss */
+.close-popup::before {
+  content: '';
+  position: absolute;
+  width: 25px;
+  height: 2px;
+  right: 5px;
+  top: -20px;
+  background-color: #5ea5bd;
+  transform: rotate(-45deg);
+  cursor: pointer;
+}
+
+/* line 416, ../scss/style.scss */
+.close-popup::after {
+  content: '';
+  position: absolute;
+  width: 25px;
+  height: 2px;
+  right: 5px;
+  top: -20px;
+  background-color: #5ea5bd;
+  transform: rotate(45deg);
+  cursor: pointer;
+}
+
+/* line 428, ../scss/style.scss */
+.thanks-modal {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  top: 0%;
+  left: 0%;
+  z-index: 999;
+  display: none;
+}
+/* line 436, ../scss/style.scss */
+.thanks-modal .thanks-popup {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 300px;
+  box-shadow: 0 0 38px rgba(104, 176, 201, 0.34);
+  border-radius: 20px;
+  background-color: #ffffff;
+}
+
+/* line 451, ../scss/style.scss */
+.thanks-close-popup::before {
+  content: '';
+  position: absolute;
+  width: 25px;
+  height: 2px;
+  right: 5px;
+  top: -20px;
+  background-color: #5ea5bd;
+  transform: rotate(-45deg);
+  cursor: pointer;
+}
+
+/* line 462, ../scss/style.scss */
+.thanks-close-popup::after {
+  content: '';
+  position: absolute;
+  width: 25px;
+  height: 2px;
+  right: 5px;
+  top: -20px;
+  background-color: #5ea5bd;
+  transform: rotate(45deg);
+  cursor: pointer;
+}
