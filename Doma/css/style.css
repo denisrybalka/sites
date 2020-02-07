@@ -1,0 +1,904 @@
+/* line 8, ../scss/_variables.scss */
+.ordinary-btn {
+  width: 17rem;
+  height: 5rem;
+  border-radius: 0.5rem;
+  background-image: linear-gradient(-221deg, #fb2b2b 0%, #f86c26 100%);
+  color: white;
+  font-size: 1.2rem;
+  font-weight: 700;
+  line-height: 1.9rem;
+  letter-spacing: 0.012rem;
+  cursor: pointer;
+}
+
+/* line 3, ../scss/style.scss */
+html {
+  font-family: "Geometria";
+  font-size: 10px;
+}
+
+/* line 9, ../scss/style.scss */
+header .header-wrap {
+  margin-top: 2rem;
+}
+/* line 12, ../scss/style.scss */
+header .logo {
+  display: flex;
+  flex-direction: row;
+}
+/* line 15, ../scss/style.scss */
+header .logo p {
+  color: #284157;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.9rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 0.016rem;
+  letter-spacing: 0.016rem;
+}
+/* line 25, ../scss/style.scss */
+header .logo .logo-text {
+  margin-left: 2rem;
+}
+/* line 29, ../scss/style.scss */
+header .schedule {
+  text-align: center;
+}
+/* line 31, ../scss/style.scss */
+header .schedule p {
+  color: #284157;
+  font-size: 1.2rem;
+  font-weight: 700;
+  line-height: 1.9rem;
+  font-weight: 700;
+  letter-spacing: 0.012rem;
+  font-weight: 400;
+  letter-spacing: 0.012rem;
+}
+/* line 42, ../scss/style.scss */
+header .phone {
+  display: flex;
+  flex-direction: row;
+}
+/* line 45, ../scss/style.scss */
+header .phone p {
+  color: #284157;
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1.9rem;
+  letter-spacing: 0.012rem;
+}
+/* line 52, ../scss/style.scss */
+header .phone button.header-btn {
+  margin-left: 3rem;
+  margin-top: 1rem;
+}
+/* line 57, ../scss/style.scss */
+header h3.p-like {
+  color: #284157;
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 1.9rem;
+  letter-spacing: 0.015rem;
+}
+
+/* line 66, ../scss/style.scss */
+section.content {
+  background: white url(../img/content-background.jpg) 0 0 no-repeat;
+  background-position: 50% 0;
+}
+/* line 69, ../scss/style.scss */
+section.content .content-text {
+  color: white;
+}
+/* line 71, ../scss/style.scss */
+section.content .content-text h1 {
+  color: white;
+  font-size: 3.6rem;
+  letter-spacing: 0.036rem;
+  font-weight: 700;
+  line-height: 3.2rem;
+  margin-top: 7rem;
+  margin-bottom: 4rem;
+}
+/* line 81, ../scss/style.scss */
+section.content .content-text h2 {
+  color: white;
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 2.6rem;
+  margin-bottom: 4.5rem;
+}
+/* line 89, ../scss/style.scss */
+section.content .content-text h3 {
+  color: white;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 2.4rem;
+}
+/* line 96, ../scss/style.scss */
+section.content .content-text-info {
+  margin-top: 20rem;
+}
+/* line 98, ../scss/style.scss */
+section.content .content-text-info p {
+  color: white;
+  font-size: 1.4rem;
+  font-weight: 500;
+}
+/* line 104, ../scss/style.scss */
+section.content .content-form {
+  background: url(../img/form-background.png) 0 0 no-repeat;
+  background-position-x: center;
+  background-position-y: center;
+  height: 100%;
+}
+/* line 109, ../scss/style.scss */
+section.content .content-form .content-form-wrap {
+  width: fit-content;
+  margin: 0 auto;
+}
+/* line 113, ../scss/style.scss */
+section.content .content-form input {
+  display: block;
+  width: 19rem;
+  height: 5rem;
+  margin: auto;
+  margin-bottom: 1.5rem;
+  color: #000000;
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1.9rem;
+  letter-spacing: 0.012rem;
+  text-align: center;
+}
+/* line 126, ../scss/style.scss */
+section.content .content-form button.content-form-btn {
+  width: 19rem;
+  display: block;
+  margin: 0 auto;
+}
+/* line 131, ../scss/style.scss */
+section.content .content-form h1 {
+  padding-top: 75%;
+  margin-bottom: 3.5rem;
+  text-align: center;
+  color: #284157;
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+
+/* line 142, ../scss/style.scss */
+section.ready-projects {
+  color: #284157;
+}
+/* line 144, ../scss/style.scss */
+section.ready-projects h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 9rem;
+}
+/* line 150, ../scss/style.scss */
+section.ready-projects .project {
+  border-radius: 0.5rem;
+  border: 0.1rem solid #e8e8e8;
+  background-color: white;
+}
+/* line 155, ../scss/style.scss */
+section.ready-projects .buttons-block {
+  display: flex;
+  flex-direction: row;
+  width: fit-content;
+  margin: 6rem auto;
+}
+/* line 160, ../scss/style.scss */
+section.ready-projects .buttons-block .ready-projects-btn {
+  width: 11rem;
+  height: 4rem;
+  border-radius: 0.5rem;
+  border: 0.2rem solid transparent;
+  background-color: white;
+  cursor: pointer;
+  transition: 0.1s linear;
+  margin-right: 1rem;
+}
+/* line 169, ../scss/style.scss */
+section.ready-projects .buttons-block .ready-projects-btn p {
+  color: #2a4258;
+  font-size: 1.8rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin: 0;
+}
+/* line 177, ../scss/style.scss */
+section.ready-projects .buttons-block .ready-projects-btn:hover {
+  border: 0.2rem solid #41596b;
+}
+/* line 184, ../scss/style.scss */
+section.ready-projects .projects-block {
+  text-align: center;
+  margin-bottom: 15rem;
+}
+/* line 187, ../scss/style.scss */
+section.ready-projects .projects-block img {
+  width: 100%;
+  height: 100%;
+}
+/* line 191, ../scss/style.scss */
+section.ready-projects .projects-block h1 {
+  font-size: 2rem;
+  font-weight: 500;
+}
+/* line 195, ../scss/style.scss */
+section.ready-projects .projects-block p {
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 3rem;
+  margin: 0;
+}
+/* line 201, ../scss/style.scss */
+section.ready-projects .projects-block .projects-block-btn {
+  font-size: 1.3rem;
+  font-weight: 500;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+/* line 210, ../scss/style.scss */
+section.individual-plan {
+  background: #e5f1fb url(../img/individual-plan-bg.jpg) 0 0 no-repeat;
+  background-position: top;
+  height: 144rem;
+  color: #284157;
+  text-align: center;
+}
+/* line 216, ../scss/style.scss */
+section.individual-plan h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  padding-top: 10rem;
+}
+/* line 221, ../scss/style.scss */
+section.individual-plan h2 {
+  font-size: 2rem;
+  font-weight: 400;
+  margin: 6rem 0;
+}
+/* line 226, ../scss/style.scss */
+section.individual-plan img {
+  width: 100%;
+  height: 100%;
+}
+/* line 230, ../scss/style.scss */
+section.individual-plan .form-back-call {
+  text-align: left;
+  border-radius: 0.5rem;
+  background-color: white;
+  width: fit-content;
+  margin: 0 auto;
+  margin-top: 6rem;
+}
+/* line 237, ../scss/style.scss */
+section.individual-plan .form-back-call h1 {
+  font-size: 2.2rem;
+  font-weight: 700;
+  padding-top: 0rem;
+}
+/* line 242, ../scss/style.scss */
+section.individual-plan .form-back-call h2 {
+  font-size: 1.6rem;
+  font-weight: 400;
+  margin: 4rem 0;
+}
+/* line 248, ../scss/style.scss */
+section.individual-plan .form-back-call .form-back-call-wrap {
+  padding: 7rem 10rem;
+}
+/* line 252, ../scss/style.scss */
+section.individual-plan .form-back-call input {
+  width: 27rem;
+  height: 6rem;
+  border-radius: 1rem;
+  border: 0.1rem solid #e8e8e8;
+  opacity: 0.5;
+  color: #000000;
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1.9rem;
+  letter-spacing: 0.012rem;
+  padding: 2.5rem;
+  margin-right: 3rem;
+}
+/* line 266, ../scss/style.scss */
+section.individual-plan .form-back-call .form-back-call-btn {
+  width: 27rem;
+  height: 6rem;
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+/* line 273, ../scss/style.scss */
+section.individual-plan .consultation {
+  margin-top: 0;
+}
+
+/* line 278, ../scss/style.scss */
+section.process-control {
+  color: #284157;
+  text-align: center;
+}
+/* line 281, ../scss/style.scss */
+section.process-control h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-top: 10rem;
+  margin-bottom: 6rem;
+}
+/* line 287, ../scss/style.scss */
+section.process-control h2 {
+  font-size: 2rem;
+  font-weight: 400;
+  margin-bottom: 6rem;
+}
+/* line 292, ../scss/style.scss */
+section.process-control .pointer-image {
+  background: white url(../img/bg-with-pointers.png) 0 0 no-repeat;
+  background-position-y: center;
+  background-position-x: center;
+  margin-bottom: 10rem;
+}
+/* line 297, ../scss/style.scss */
+section.process-control .pointer-image p {
+  font-size: 1.6rem;
+  font-weight: 500;
+  text-decoration: underline;
+  cursor: pointer;
+}
+/* line 303, ../scss/style.scss */
+section.process-control .pointer-image .pointer-text {
+  margin-bottom: 8rem;
+}
+/* line 307, ../scss/style.scss */
+section.process-control .pointer-image .pointer-text-1 p:first-child {
+  margin-top: 8rem;
+}
+/* line 312, ../scss/style.scss */
+section.process-control .pointer-image .pointer-text-2 p:first-child {
+  margin-top: 3rem;
+}
+/* line 316, ../scss/style.scss */
+section.process-control .pointer-image .desc {
+  position: relative;
+  display: none;
+  width: 29rem;
+  height: 8.5rem;
+  border-radius: 1rem;
+  background-color: #f5f5f5;
+  z-index: 2;
+}
+/* line 324, ../scss/style.scss */
+section.process-control .pointer-image .desc b {
+  color: #284157;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 2rem;
+}
+/* line 331, ../scss/style.scss */
+section.process-control .pointer-image .desc::after {
+  content: '';
+  position: absolute;
+  /* Абсолютное позиционирование */
+  left: 10px;
+  top: -30px;
+  /* Положение треугольника */
+  border: 20px solid transparent;
+  border-bottom: 20px solid #f5f5f5;
+  z-index: -1;
+}
+/* line 340, ../scss/style.scss */
+section.process-control .pointer-image .pointer-text:hover .desc {
+  display: block;
+  left: 25rem;
+  position: absolute;
+  z-index: 9999;
+}
+
+/* line 349, ../scss/style.scss */
+section.choosen-material {
+  background: #284157 url() 0 0 no-repeat;
+  color: white;
+  height: 60rem;
+  text-align: center;
+}
+/* line 354, ../scss/style.scss */
+section.choosen-material h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  padding-top: 10rem;
+  margin-bottom: 6rem;
+}
+/* line 360, ../scss/style.scss */
+section.choosen-material h3 {
+  font-size: 1.4rem;
+  font-weight: 500;
+  text-transform: uppercase;
+  margin: 3rem auto;
+}
+/* line 366, ../scss/style.scss */
+section.choosen-material p {
+  font-size: 1.4rem;
+  font-weight: 400;
+  text-decoration: underline;
+  cursor: pointer;
+}
+/* line 372, ../scss/style.scss */
+section.choosen-material img {
+  width: 100%;
+  height: 100%;
+}
+
+/* line 378, ../scss/style.scss */
+section.features {
+  background: #e6f2f9 url(../img/features-bg.jpg) 0 0 no-repeat;
+  background-position: top;
+  background-position-y: -2rem;
+  display: block;
+  height: 76rem;
+  color: #284157;
+}
+/* line 385, ../scss/style.scss */
+section.features h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 10rem;
+  margin-top: 0;
+  padding-top: 10rem;
+}
+/* line 393, ../scss/style.scss */
+section.features .features-block {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 4rem;
+}
+/* line 397, ../scss/style.scss */
+section.features .features-block .features-text {
+  margin-left: 3rem;
+}
+/* line 399, ../scss/style.scss */
+section.features .features-block .features-text h2 {
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+/* line 403, ../scss/style.scss */
+section.features .features-block .features-text p {
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+/* line 409, ../scss/style.scss */
+section.features .feature-list {
+  width: fit-content;
+  margin: 0 auto;
+}
+
+/* line 415, ../scss/style.scss */
+section.our-head {
+  color: #284157;
+  height: 50rem;
+}
+/* line 418, ../scss/style.scss */
+section.our-head h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 10rem;
+  margin-bottom: 6rem;
+}
+/* line 426, ../scss/style.scss */
+section.our-head .our-head-info h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-top: 3rem;
+}
+/* line 431, ../scss/style.scss */
+section.our-head .our-head-info p {
+  font-size: 1.6rem;
+  font-weight: 400;
+  margin: 4rem 0;
+}
+/* line 436, ../scss/style.scss */
+section.our-head .our-head-info h3 {
+  font-size: 1.8rem;
+  font-weight: 500;
+}
+/* line 441, ../scss/style.scss */
+section.our-head .our-head-photo {
+  cursor: pointer;
+}
+/* line 443, ../scss/style.scss */
+section.our-head .our-head-photo img {
+  width: 100%;
+  height: 100%;
+}
+
+/* line 450, ../scss/style.scss */
+section.key-persons {
+  background-color: #ebf3fa;
+  text-align: center;
+  color: #284157;
+  height: 85rem;
+}
+/* line 455, ../scss/style.scss */
+section.key-persons h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  padding: 10rem;
+}
+/* line 460, ../scss/style.scss */
+section.key-persons .key-persons-list {
+  font-weight: 400;
+}
+/* line 462, ../scss/style.scss */
+section.key-persons .key-persons-list h1 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  padding: 0;
+  margin-top: 3rem;
+}
+/* line 468, ../scss/style.scss */
+section.key-persons .key-persons-list h2 {
+  font-size: 1.4rem;
+  margin-bottom: 3rem;
+}
+/* line 472, ../scss/style.scss */
+section.key-persons .key-persons-list p {
+  font-size: 1.4rem;
+  margin: 3rem 0;
+}
+/* line 476, ../scss/style.scss */
+section.key-persons .key-persons-list p:first-child {
+  padding-top: 3rem;
+}
+/* line 479, ../scss/style.scss */
+section.key-persons .key-persons-list p:last-child {
+  padding-bottom: 3rem;
+}
+/* line 483, ../scss/style.scss */
+section.key-persons .key-persons-info {
+  width: 100%;
+  height: fit-content;
+  border-radius: 1rem;
+  background: white url() 0 0 no-repeat;
+  position: relative;
+}
+/* line 490, ../scss/style.scss */
+section.key-persons .key-persons-info::after {
+  content: '';
+  position: absolute;
+  /* Абсолютное позиционирование */
+  left: 50%;
+  transform: translateX(-20px);
+  top: -40px;
+  /* Положение треугольника */
+  border: 20px solid transparent;
+  border-bottom: 20px solid white;
+}
+/* line 499, ../scss/style.scss */
+section.key-persons img {
+  display: block;
+  width: 50%;
+  margin: 0 auto;
+}
+
+/* line 506, ../scss/style.scss */
+section.faq {
+  background: #12445d url(../img/faq-bg.jpg) 0 0 no-repeat;
+  color: white;
+}
+/* line 509, ../scss/style.scss */
+section.faq h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  text-align: center;
+  margin-top: 0;
+  padding-top: 10rem;
+  margin-bottom: 6rem;
+}
+/* line 517, ../scss/style.scss */
+section.faq h2 {
+  font-size: 2rem;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 6rem;
+}
+/* line 523, ../scss/style.scss */
+section.faq .faq-list {
+  margin-left: 10%;
+}
+/* line 525, ../scss/style.scss */
+section.faq .faq-list .faq-block {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 0.5rem;
+}
+/* line 529, ../scss/style.scss */
+section.faq .faq-list .faq-block p:first-child {
+  font-size: 1.6rem;
+  font-weight: 400;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 6rem;
+  border: 0.1rem solid white;
+  text-align: center;
+  padding-top: 4px;
+}
+/* line 540, ../scss/style.scss */
+section.faq .faq-list .faq-block p:last-child {
+  font-size: 1.6rem;
+  font-weight: 400;
+  text-decoration: underline;
+  margin-left: 1rem;
+}
+/* line 547, ../scss/style.scss */
+section.faq .faq-list .faq-block:last-child {
+  margin-bottom: 0;
+}
+
+/* line 553, ../scss/style.scss */
+.consultation-section {
+  background: none !important;
+  height: 33rem !important;
+  margin-bottom: 7rem;
+}
+/* line 557, ../scss/style.scss */
+.consultation-section p {
+  margin-top: 4rem;
+  font-size: 1.4rem;
+  font-weight: 400;
+  font-weight: 700;
+}
+
+/* line 566, ../scss/style.scss */
+footer .footer-info-block {
+  background-color: #ebf3fa;
+}
+/* line 568, ../scss/style.scss */
+footer .footer-info-block .map {
+  width: 100%;
+  height: 100%;
+}
+/* line 572, ../scss/style.scss */
+footer .footer-info-block .address-block {
+  color: #284157;
+  margin-left: 10rem;
+}
+/* line 575, ../scss/style.scss */
+footer .footer-info-block .address-block h1 {
+  font-size: 2.2rem;
+  font-weight: 700;
+  margin-top: 10rem;
+  margin-bottom: 4rem;
+}
+/* line 581, ../scss/style.scss */
+footer .footer-info-block .address-block h2 {
+  font-size: 1.6rem;
+  font-weight: 400;
+  margin-bottom: 5rem;
+}
+/* line 586, ../scss/style.scss */
+footer .footer-info-block .address-block p {
+  font-size: 1.4rem;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+  margin-left: 3rem;
+}
+/* line 593, ../scss/style.scss */
+footer .footer-info-block .address-block .address, footer .footer-info-block .address-block .phone, footer .footer-info-block .address-block .schedule {
+  display: flex;
+  flex-direction: row;
+  margin: 4rem 0;
+}
+/* line 597, ../scss/style.scss */
+footer .footer-info-block .address-block .address img, footer .footer-info-block .address-block .phone img, footer .footer-info-block .address-block .schedule img {
+  max-height: 2rem;
+  max-width: 2rem;
+}
+/* line 605, ../scss/style.scss */
+footer .footer-bottom {
+  background-color: #fff;
+  margin: 2rem 0;
+}
+/* line 608, ../scss/style.scss */
+footer .footer-bottom .footer-bottom-logo {
+  display: flex;
+  flex-direction: row;
+  margin-left: 20%;
+}
+/* line 612, ../scss/style.scss */
+footer .footer-bottom .footer-bottom-logo p {
+  color: #284157;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.9rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 0.016rem;
+  letter-spacing: 0.016rem;
+}
+/* line 622, ../scss/style.scss */
+footer .footer-bottom .footer-bottom-logo .logo-text {
+  margin-left: 2rem;
+}
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+@media (max-width: 1024px) {
+  /* line 30, ../scss/_media.scss */
+  section.content {
+    background-position: 20% 0;
+  }
+
+  /* line 35, ../scss/_media.scss */
+  .form-back-call input {
+    width: fit-content;
+    margin: 0 auto;
+  }
+  /* line 39, ../scss/_media.scss */
+  .form-back-call button {
+    display: block;
+    margin: 0 auto;
+    margin-top: 2rem;
+  }
+
+  /* line 46, ../scss/_media.scss */
+  section.process-control .pointer-text-1 {
+    text-align: left;
+  }
+  /* line 49, ../scss/_media.scss */
+  section.process-control .pointer-text-2 {
+    text-align: right;
+  }
+
+  /* line 54, ../scss/_media.scss */
+  section.our-head {
+    height: 80rem;
+    text-align: center;
+  }
+
+  /* line 60, ../scss/_media.scss */
+  section.key-persons .key-persons-info {
+    height: fit-content;
+  }
+
+  /* line 65, ../scss/_media.scss */
+  section.faq {
+    background-position: 35%;
+  }
+
+  /* line 69, ../scss/_media.scss */
+  .map {
+    display: none;
+  }
+
+  /* line 72, ../scss/_media.scss */
+  footer .footer-info-block .address-block {
+    text-align: center;
+    width: fit-content;
+    margin: 0 auto;
+  }
+  /* line 76, ../scss/_media.scss */
+  footer .footer-info-block .address-block .address, footer .footer-info-block .address-block .schedule, footer .footer-info-block .address-block .phone {
+    display: block;
+    width: fit-content;
+    margin: 4rem auto;
+  }
+
+  /* line 82, ../scss/_media.scss */
+  .consultation-section {
+    margin-bottom: 7rem;
+    height: 40rem !important;
+    background: none !important;
+  }
+  /* line 86, ../scss/_media.scss */
+  .consultation-section p {
+    display: none;
+  }
+
+  /* line 90, ../scss/_media.scss */
+  footer .footer-info-block .address-block p {
+    margin: 0;
+  }
+}
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+@media (max-width: 767px) {
+  /* line 103, ../scss/_media.scss */
+  header .schedule, header .phone-number {
+    display: none;
+  }
+  /* line 106, ../scss/_media.scss */
+  header .header-btn {
+    margin-bottom: 2rem;
+  }
+
+  /* line 110, ../scss/_media.scss */
+  section.content {
+    background-position: 40% 0;
+  }
+
+  /* line 113, ../scss/_media.scss */
+  .content-form {
+    display: none;
+  }
+
+  /* line 116, ../scss/_media.scss */
+  section.features {
+    height: 85rem;
+  }
+
+  /* line 119, ../scss/_media.scss */
+  section.choosen-material {
+    height: 80rem;
+  }
+
+  /* line 122, ../scss/_media.scss */
+  section.key-persons {
+    height: 240rem;
+  }
+  /* line 124, ../scss/_media.scss */
+  section.key-persons img {
+    margin-top: 5rem;
+  }
+
+  /* line 128, ../scss/_media.scss */
+  section.individual-plan .form-back-call .form-back-call-wrap {
+    padding: 7rem 0rem;
+  }
+  /* line 130, ../scss/_media.scss */
+  section.individual-plan .form-back-call .form-back-call-wrap input {
+    width: 100%;
+    margin-right: 0;
+  }
+}
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+@media (max-width: 580px) {
+  /* line 145, ../scss/_media.scss */
+  section.process-control .pointer-image {
+    display: none;
+  }
+}
+@media (max-width: 480px) {
+  /* line 153, ../scss/_media.scss */
+  section.features {
+    height: 110rem;
+  }
+}
+@media (max-width: 400px) {
+  /* line 159, ../scss/_media.scss */
+  html {
+    font-size: 8px;
+  }
+
+  /* line 162, ../scss/_media.scss */
+  section.features {
+    height: 95rem;
+  }
+}

@@ -1,0 +1,165 @@
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+
+  
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+  
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (max-width: 1024px) {
+  
+  section.content {
+    background-position: 20% 0;
+  }
+  
+  .form-back-call {
+    input {
+      width: fit-content;
+      margin:0 auto;
+    }
+    button {
+      display:block;
+      margin:0 auto;
+      margin-top: 2rem;
+    }
+  }
+  section.process-control {
+    .pointer-text-1 {
+      text-align: left;
+    }
+    .pointer-text-2 {
+      text-align: right;
+    }
+  }
+
+  section.our-head {
+    height: 80rem;
+    text-align: center;
+  }
+
+  section.key-persons {
+    .key-persons-info {
+      height: fit-content;
+    }
+  }
+
+  section.faq {
+    background-position: 35%;
+  }
+
+  .map {
+    display:none;
+  }
+  footer .footer-info-block .address-block {
+    text-align: center;
+    width: fit-content;
+    margin: 0 auto;
+    .address,.schedule,.phone {
+      display:block;
+      width:fit-content;
+      margin:4rem auto;
+    }
+  }
+  .consultation-section {
+    margin-bottom: 7rem;
+    height: 40rem !important;
+    background: none !important;
+    p {
+      display:none;
+    }
+  }
+  footer .footer-info-block .address-block p {
+    margin: 0;
+  }
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+
+@media (max-width: 767px) {
+  header {
+    .schedule, .phone-number {
+      display: none;
+    }
+    .header-btn {
+      margin-bottom: 2rem;
+    }
+  }
+  section.content {
+    background-position:40% 0;
+  }
+  .content-form {
+    display: none;
+  }
+  section.features {
+    height: 85rem;
+  }
+  section.choosen-material {
+    height: 80rem;
+  }
+  section.key-persons {
+    height: 240rem;
+    img {
+      margin-top: 5rem;
+    }
+  }
+  section.individual-plan .form-back-call .form-back-call-wrap {
+    padding: 7rem 0rem;
+    input {
+      width: 100%;
+      margin-right: 0;
+    }
+  }
+
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (max-width:580px) {
+   section.process-control {
+    .pointer-image {
+      display: none;
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  
+  section.features {
+    height: 110rem;
+  }
+}
+
+@media (max-width: 400px) {
+  html {
+    font-size: 8px;
+  }
+  section.features {
+    height: 95rem;
+}
+}
