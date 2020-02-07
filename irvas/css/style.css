@@ -1,0 +1,620 @@
+/* line 21, ../scss/_vars.scss */
+h1.title {
+  padding-top: 80px;
+  margin-bottom: 100px;
+  color: #333333;
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/* line 33, ../scss/_vars.scss */
+.form .form-wrap {
+  border-radius: 10px;
+  background-color: #ffffff;
+  text-align: center;
+}
+/* line 37, ../scss/_vars.scss */
+.form .form-wrap h2 {
+  padding-top: 40px;
+  font-size: 20px;
+  font-weight: 700;
+}
+/* line 42, ../scss/_vars.scss */
+.form .form-wrap h1 {
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+}
+/* line 48, ../scss/_vars.scss */
+.form .form-wrap p {
+  margin-top: 20px;
+  padding-bottom: 40px;
+  color: #666666;
+  font-size: 11px;
+  font-weight: 300;
+}
+/* line 55, ../scss/_vars.scss */
+.form .form-wrap .form-input-block {
+  display: flex;
+  flex-direction: column;
+}
+/* line 58, ../scss/_vars.scss */
+.form .form-wrap .form-input-block input {
+  width: 270px;
+  height: 60px;
+  border-radius: 10px;
+  border: 1px solid #d1d1d1;
+  margin: 0 40px;
+  margin-bottom: 20px;
+  color: #999999;
+  font-size: 15px;
+  font-weight: 400;
+  text-align: center;
+}
+/* line 71, ../scss/_vars.scss */
+.form .form-wrap .form-input-block button.primary-btn {
+  margin: 0 auto;
+  width: 270px;
+  height: 80px;
+  box-shadow: 0 2px 20px rgba(255, 153, 0, 0);
+  border-radius: 10px;
+  border: 1px solid #ffc600;
+  background-image: linear-gradient(to bottom, #ffed26 0%, #ffb400 100%);
+  cursor: pointer;
+}
+
+@media (max-width: 993px) {
+  /* line 85, ../scss/_vars.scss */
+  .form {
+    display: none;
+  }
+}
+/* line 2, ../scss/style.scss */
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+/* line 7, ../scss/style.scss */
+header .header-wrap {
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/* line 12, ../scss/style.scss */
+header .header-wrap p {
+  color: #0089cc;
+  font-size: 14px;
+  font-weight: 400;
+}
+/* line 17, ../scss/style.scss */
+header .header-wrap button.header-btn {
+  display: flex;
+  justify-content: center;
+  width: 170px;
+  height: 60px;
+  border-radius: 10px;
+  border: 2px solid #55a831;
+  background-color: transparent;
+  color: #55a831;
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+}
+/* line 29, ../scss/style.scss */
+header .header-wrap button.header-btn img {
+  margin-right: 10px;
+}
+/* line 33, ../scss/style.scss */
+header .header-wrap .header-schedule {
+  display: flex;
+}
+/* line 35, ../scss/style.scss */
+header .header-wrap .header-schedule h2, header .header-wrap .header-schedule h3 {
+  margin: 0;
+  padding: 0;
+  color: #333333;
+}
+/* line 40, ../scss/style.scss */
+header .header-wrap .header-schedule h3 {
+  font-size: 14px;
+  font-weight: 400;
+}
+/* line 44, ../scss/style.scss */
+header .header-wrap .header-schedule h2 {
+  font-size: 18px;
+  font-weight: 600;
+}
+/* line 48, ../scss/style.scss */
+header .header-wrap .header-schedule img {
+  width: 30px;
+  height: 30px;
+  padding-right: 10px;
+}
+/* line 55, ../scss/style.scss */
+header .header-wrap .header-phone li {
+  list-style-image: url(../img/phone-img.png);
+}
+/* line 58, ../scss/style.scss */
+header .header-wrap .header-phone p {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+@media (max-width: 993px) {
+  /* line 68, ../scss/style.scss */
+  header .header-wrap .header-text, header .header-wrap button.header-btn {
+    display: none !important;
+  }
+}
+/* line 74, ../scss/style.scss */
+section.main {
+  background: white url("../img/main-section-bg.jpg") 0 0 no-repeat;
+  background-position: center;
+  height: 640px;
+}
+/* line 78, ../scss/style.scss */
+section.main .main-wrap {
+  color: #333333;
+  display: flex;
+  justify-content: space-between;
+}
+/* line 83, ../scss/style.scss */
+section.main .main-wrap .main-info-block h2 {
+  padding-top: 120px;
+  margin-bottom: 35px;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 48px;
+}
+/* line 91, ../scss/style.scss */
+section.main .main-wrap .main-info-block h1 {
+  margin-bottom: 135px;
+  font-size: 55px;
+  font-weight: 700;
+  line-height: 48px;
+}
+/* line 98, ../scss/style.scss */
+section.main .main-wrap .main-info-block .features-block {
+  display: flex;
+  position: relative;
+}
+/* line 101, ../scss/style.scss */
+section.main .main-wrap .main-info-block .features-block .feature {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 110px;
+  height: 110px;
+  border: 1px solid white;
+  border-radius: 60px;
+  background-color: #0d8fe3;
+  margin: 0 10px;
+  color: white;
+  font-size: 12px;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: center;
+}
+/* line 118, ../scss/style.scss */
+section.main .main-wrap .main-info-block .features-block .feature img {
+  position: absolute;
+  top: -20px;
+}
+/* line 125, ../scss/style.scss */
+section.main .main-wrap .main-form {
+  margin-top: 100px;
+}
+
+@media (max-width: 993px) {
+  /* line 131, ../scss/style.scss */
+  section.main {
+    background-position: 20%;
+  }
+}
+/* line 137, ../scss/style.scss */
+section.our-work .glass-block {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+/* line 141, ../scss/style.scss */
+section.our-work .glass-block .glass {
+  margin: 0px 60px;
+}
+/* line 145, ../scss/style.scss */
+section.our-work .temperature-block {
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+  margin-bottom: 150px;
+}
+/* line 150, ../scss/style.scss */
+section.our-work .temperature-block .block {
+  color: black;
+  width: 100%;
+}
+/* line 153, ../scss/style.scss */
+section.our-work .temperature-block .block h1 {
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+}
+/* line 159, ../scss/style.scss */
+section.our-work .temperature-block .block img {
+  display: block;
+  width: fit-content;
+  margin: 0 auto;
+}
+/* line 164, ../scss/style.scss */
+section.our-work .temperature-block .block .li-block {
+  display: block;
+  width: fit-content;
+  margin: 0 auto;
+}
+/* line 168, ../scss/style.scss */
+section.our-work .temperature-block .block .li-block li {
+  list-style-image: url(../img/li.png);
+  font-size: 14px;
+  font-weight: 400;
+  padding: 10px 0px;
+}
+/* line 176, ../scss/style.scss */
+section.our-work .temperature-block .cold-block {
+  border-radius: 5px 0 0 5px;
+  border-top: 5px solid #0089cc;
+  background-image: url(../img/background-cold.png);
+}
+/* line 181, ../scss/style.scss */
+section.our-work .temperature-block .hot-block {
+  border-radius: 0 5px 5px 0;
+  border-top: 5px solid #ffb903;
+  background-image: url(../img/background-hot.png);
+}
+/* line 186, ../scss/style.scss */
+section.our-work .temperature-block .temperature-block-bottom {
+  display: flex;
+  width: fit-content;
+  margin: 40px auto;
+  margin-bottom: 0;
+}
+/* line 191, ../scss/style.scss */
+section.our-work .temperature-block .temperature-block-bottom button.primary-btn {
+  width: 262px;
+  height: 65px;
+  margin-left: 10px;
+  box-shadow: 0 2px 20px rgba(255, 153, 0, 0.4);
+  border-radius: 10px;
+  border: 1px solid #ffc600;
+  background-color: #e8e8e8;
+  background-image: linear-gradient(to bottom, #ffed26 0%, #ffb400 100%);
+  cursor: pointer;
+}
+/* line 203, ../scss/style.scss */
+section.our-work .temperature-block .temperature-block-bottom .temperature-block-price h2 {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+  margin: 0;
+  padding: 0;
+}
+/* line 210, ../scss/style.scss */
+section.our-work .temperature-block .temperature-block-bottom .temperature-block-price h1 {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 30px;
+  text-transform: none;
+}
+
+@media (max-width: 941px) {
+  /* line 222, ../scss/style.scss */
+  section.our-work .temperature-block {
+    flex-direction: column;
+  }
+  /* line 224, ../scss/style.scss */
+  section.our-work .temperature-block .hot-block {
+    margin-top: 50px;
+  }
+}
+/* line 231, ../scss/style.scss */
+section.order {
+  background-color: #f7f7f7;
+}
+/* line 233, ../scss/style.scss */
+section.order .order-block {
+  padding-bottom: 80px;
+}
+/* line 235, ../scss/style.scss */
+section.order .order-block .order-nav {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+/* line 239, ../scss/style.scss */
+section.order .order-block .order-nav .nav-list {
+  width: 300px;
+  height: 85px;
+  cursor: pointer;
+  transition: 0.2s ease;
+  text-align: center;
+  color: black;
+  font-size: 20px;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-decoration: underline;
+  border-top: 10px solid transparent;
+}
+/* line 253, ../scss/style.scss */
+section.order .order-block .order-nav .nav-list:hover {
+  border-top: 10px solid #0089cc;
+  background-image: url(../img/Прямоугольник_10.png);
+  color: #0089cc;
+  text-decoration: none;
+}
+/* line 260, ../scss/style.scss */
+section.order .order-block .order-content {
+  display: flex;
+}
+/* line 262, ../scss/style.scss */
+section.order .order-block .order-content .order-content-main {
+  display: flex;
+}
+/* line 264, ../scss/style.scss */
+section.order .order-block .order-content .order-content-main img.order-content-main-img {
+  width: 300px;
+  height: 440px;
+}
+/* line 268, ../scss/style.scss */
+section.order .order-block .order-content .order-content-main .order-content-main-material {
+  display: flex;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+/* line 272, ../scss/style.scss */
+section.order .order-block .order-content .order-content-main .order-content-main-material .material {
+  text-align: center;
+}
+/* line 274, ../scss/style.scss */
+section.order .order-block .order-content .order-content-main .order-content-main-material .material h1 {
+  font-size: 14px;
+  font-weight: 400;
+}
+/* line 278, ../scss/style.scss */
+section.order .order-block .order-content .order-content-main .order-content-main-material .material h2 {
+  font-size: 14px;
+  color: #0d8fe3;
+  font-weight: 700;
+}
+/* line 283, ../scss/style.scss */
+section.order .order-block .order-content .order-content-main .order-content-main-material .material p {
+  color: black;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+@media (min-width: 994px) {
+  /* line 298, ../scss/style.scss */
+  section.order .order-block .order-nav .nav-list {
+    line-height: 85px;
+  }
+  /* line 303, ../scss/style.scss */
+  section.order .order-block .order-content .material {
+    margin: 0px 25px;
+  }
+}
+@media (max-width: 993px) {
+  /* line 314, ../scss/style.scss */
+  section.order .order-block .order-content .material {
+    margin: 0px 7px;
+  }
+}
+/* line 323, ../scss/style.scss */
+section.portfolio .portfolio-wrap {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+/* line 327, ../scss/style.scss */
+section.portfolio .portfolio-wrap .portfolio-block {
+  width: 270px;
+  height: 270px;
+  margin: 15px 0px;
+  position: relative;
+  cursor: pointer;
+}
+/* line 333, ../scss/style.scss */
+section.portfolio .portfolio-wrap .portfolio-block img {
+  width: 100%;
+  height: 100%;
+}
+
+/* line 355, ../scss/style.scss */
+section.features {
+  background-image: linear-gradient(to bottom, #0180c0 0%, #1799d6 100%);
+}
+/* line 357, ../scss/style.scss */
+section.features h1.title {
+  color: #fff;
+}
+/* line 360, ../scss/style.scss */
+section.features .features-wrap {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: center;
+}
+/* line 365, ../scss/style.scss */
+section.features .features-wrap .features-block {
+  margin: 40px 60px;
+  max-width: 170px;
+}
+/* line 368, ../scss/style.scss */
+section.features .features-wrap .features-block p {
+  font-size: 18px;
+  font-weight: 400;
+  color: #fff;
+}
+
+/* line 378, ../scss/style.scss */
+section.pay .pay-wrap {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+/* line 382, ../scss/style.scss */
+section.pay .pay-wrap .pay-block {
+  display: flex;
+  margin-bottom: 80px;
+}
+/* line 385, ../scss/style.scss */
+section.pay .pay-wrap .pay-block img {
+  margin-right: 30px;
+  width: 70px;
+  height: 70px;
+}
+/* line 390, ../scss/style.scss */
+section.pay .pay-wrap .pay-block p {
+  line-height: 30px;
+}
+
+/* line 397, ../scss/style.scss */
+section.salary {
+  background: white url(../img/background-image-salary.jpg) 0 0 no-repeat;
+  background-position: center;
+  height: 600px;
+}
+/* line 401, ../scss/style.scss */
+section.salary .salary-wrap {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 80px;
+}
+/* line 406, ../scss/style.scss */
+section.salary .salary-wrap .salary-text h1 {
+  color: #0089cc;
+  font-size: 48px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+/* line 412, ../scss/style.scss */
+section.salary .salary-wrap .salary-text h2 {
+  color: black;
+  font-size: 24px;
+  font-weight: 400;
+  margin: 80px 0px;
+}
+/* line 419, ../scss/style.scss */
+section.salary .salary-wrap .salary-text .salary-deadline h3 {
+  color: black;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 33px;
+  text-transform: uppercase;
+}
+
+@media (max-width: 993px) {
+  /* line 432, ../scss/style.scss */
+  section.salary {
+    background-position: 20%;
+  }
+}
+/* line 438, ../scss/style.scss */
+section.contacts .contacts-wrap {
+  display: flex;
+}
+/* line 441, ../scss/style.scss */
+section.contacts .contacts-wrap .contacts-block p {
+  color: #0089cc;
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+/* line 447, ../scss/style.scss */
+section.contacts .contacts-wrap .contacts-block h2 {
+  color: black;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 40px;
+}
+
+@media (max-width: 993px) {
+  /* line 457, ../scss/style.scss */
+  section.contacts .contacts-wrap {
+    flex-direction: column;
+  }
+  /* line 459, ../scss/style.scss */
+  section.contacts .contacts-wrap .map {
+    display: block;
+    margin: 0 auto;
+  }
+}
+@media (min-width: 994px) {
+  /* line 467, ../scss/style.scss */
+  section.contacts .contacts-wrap .contacts-block {
+    margin-left: 130px;
+  }
+}
+/* line 472, ../scss/style.scss */
+section.questions {
+  border: 1px solid #ffffff;
+  background-color: #00a0eb;
+}
+/* line 475, ../scss/style.scss */
+section.questions .questions-wrap {
+  display: flex;
+  justify-content: center;
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 26px;
+  margin: 80px 0px;
+}
+/* line 483, ../scss/style.scss */
+section.questions .questions-wrap .questions-1 {
+  text-decoration: underline;
+  font-weight: 500;
+  margin-left: 40px;
+}
+/* line 488, ../scss/style.scss */
+section.questions .questions-wrap .questions, section.questions .questions-wrap .questions-1 {
+  cursor: pointer;
+}
+
+/* line 495, ../scss/style.scss */
+footer .footer-wrap {
+  display: flex;
+  justify-content: space-between;
+  margin: 40px 0px;
+}
+/* line 499, ../scss/style.scss */
+footer .footer-wrap p {
+  font-size: 15px;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+}
+/* line 505, ../scss/style.scss */
+footer .footer-wrap img {
+  height: 42px;
+}
+/* line 509, ../scss/style.scss */
+footer .footer-wrap .footer-contacts h2 {
+  color: #333333;
+  font-size: 18px;
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+}
+/* line 516, ../scss/style.scss */
+footer .footer-wrap .footer-contacts a {
+  margin: 0;
+  padding: 0;
+  color: #0090d5;
+  font-size: 14px;
+  font-weight: 400;
+}
