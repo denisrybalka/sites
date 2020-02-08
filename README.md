@@ -11,4 +11,6 @@
 
 [ссылка](https://denisrybalka.github.io/irvas/) - сайт компании по остеклению балконов
 
+[ссылка](https://denisrybalka.github.io/yoga/) - сайт компании йога-туров
+
 
