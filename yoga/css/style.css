@@ -660,7 +660,7 @@ section.price .price-text .price-text-wrap .price-not-included li {
   list-style-image: url(../img/not-included.png);
 }
 
-@media (max-width: 450px) {
+@media (max-width: 767px) {
   /* line 562, ../scss/style.scss */
   section.price .price-wrap .price-block .special-price {
     display: none;
