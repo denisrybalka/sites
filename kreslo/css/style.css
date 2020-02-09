@@ -166,7 +166,7 @@ section.main .main-wrap .form input {
     padding-top: 50px;
   }
 }
-@media (max-width: 350px) {
+@media (max-width: 450px) {
   /* line 99, ../scss/style.scss */
   header .header-wrap span {
     font-size: 20px;
@@ -535,7 +535,7 @@ section.features .features-wrap .features-2 {
   color: #68b0c9;
 }
 
-@media (max-width: 350px) {
+@media (max-width: 450px) {
   /* line 431, ../scss/style.scss */
   section.features {
     background-image: none;
@@ -604,7 +604,7 @@ footer .footer-wrap a {
   font-weight: 400;
 }
 
-@media (max-width: 350px) {
+@media (max-width: 450px) {
   /* line 496, ../scss/style.scss */
   footer .footer-wrap {
     flex-direction: column;
