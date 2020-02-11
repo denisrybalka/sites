@@ -1,0 +1,853 @@
+/* line 21, ../scss/_vars.scss */
+h1.title {
+  padding-top: 80px;
+  margin-bottom: 100px;
+  color: #333333;
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/* line 33, ../scss/_vars.scss */
+.form .form-wrap {
+  border-radius: 10px;
+  background-color: #ffffff;
+  text-align: center;
+}
+/* line 37, ../scss/_vars.scss */
+.form .form-wrap h2 {
+  padding-top: 40px;
+  font-size: 20px;
+  font-weight: 700;
+}
+/* line 42, ../scss/_vars.scss */
+.form .form-wrap h1 {
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+}
+/* line 48, ../scss/_vars.scss */
+.form .form-wrap p {
+  margin-top: 20px;
+  padding-bottom: 40px;
+  color: #666666;
+  font-size: 11px;
+  font-weight: 300;
+}
+/* line 55, ../scss/_vars.scss */
+.form .form-wrap .form-input-block {
+  display: flex;
+  flex-direction: column;
+}
+/* line 58, ../scss/_vars.scss */
+.form .form-wrap .form-input-block input {
+  width: 270px;
+  height: 60px;
+  border-radius: 10px;
+  border: 1px solid #d1d1d1;
+  margin: 0 40px;
+  margin-bottom: 20px;
+  color: #999999;
+  font-size: 15px;
+  font-weight: 400;
+  text-align: center;
+}
+
+/* line 74, ../scss/_vars.scss */
+button.primary-btn {
+  margin: 0 auto;
+  width: 270px;
+  height: 80px;
+  box-shadow: 0 2px 20px rgba(255, 153, 0, 0);
+  border-radius: 10px;
+  border: 1px solid #ffc600;
+  background-image: linear-gradient(to bottom, #ffed26 0%, #ffb400 100%);
+  cursor: pointer;
+}
+
+/* line 85, ../scss/_vars.scss */
+button.know-more {
+  display: none;
+}
+
+@media (max-width: 767px) {
+  /* line 89, ../scss/_vars.scss */
+  button.know-more {
+    display: block;
+  }
+}
+/* line 2, ../scss/style.scss */
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+/* line 7, ../scss/style.scss */
+header .header-wrap {
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+/* line 12, ../scss/style.scss */
+header .header-wrap p {
+  color: #0089cc;
+  font-size: 14px;
+  font-weight: 400;
+}
+/* line 17, ../scss/style.scss */
+header .header-wrap button.header-btn {
+  display: flex;
+  justify-content: center;
+  width: 170px;
+  height: 60px;
+  border-radius: 10px;
+  border: 2px solid #55a831;
+  background-color: transparent;
+  color: #55a831;
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+}
+/* line 29, ../scss/style.scss */
+header .header-wrap button.header-btn img {
+  margin-right: 10px;
+}
+/* line 33, ../scss/style.scss */
+header .header-wrap .header-schedule {
+  display: flex;
+}
+/* line 35, ../scss/style.scss */
+header .header-wrap .header-schedule h2, header .header-wrap .header-schedule h3 {
+  margin: 0;
+  padding: 0;
+  color: #333333;
+}
+/* line 40, ../scss/style.scss */
+header .header-wrap .header-schedule h3 {
+  font-size: 14px;
+  font-weight: 400;
+}
+/* line 44, ../scss/style.scss */
+header .header-wrap .header-schedule h2 {
+  font-size: 18px;
+  font-weight: 600;
+}
+/* line 48, ../scss/style.scss */
+header .header-wrap .header-schedule img {
+  width: 30px;
+  height: 30px;
+  padding-right: 10px;
+}
+/* line 55, ../scss/style.scss */
+header .header-wrap .header-phone li {
+  list-style-image: url(../img/phone-img.png);
+}
+/* line 58, ../scss/style.scss */
+header .header-wrap .header-phone p {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+/* line 65, ../scss/style.scss */
+section.main {
+  background: white url("../img/main-section-bg.jpg") 0 0 no-repeat;
+  background-position: center;
+  height: 640px;
+}
+/* line 69, ../scss/style.scss */
+section.main .main-wrap {
+  color: #333333;
+  display: flex;
+  justify-content: space-between;
+}
+/* line 74, ../scss/style.scss */
+section.main .main-wrap .main-info-block h2 {
+  padding-top: 120px;
+  margin-bottom: 35px;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 48px;
+}
+/* line 82, ../scss/style.scss */
+section.main .main-wrap .main-info-block h1 {
+  margin-bottom: 135px;
+  font-size: 55px;
+  font-weight: 700;
+  line-height: 48px;
+}
+/* line 89, ../scss/style.scss */
+section.main .main-wrap .main-info-block .features-block {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+}
+/* line 93, ../scss/style.scss */
+section.main .main-wrap .main-info-block .features-block .feature {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 110px;
+  height: 110px;
+  border: 1px solid white;
+  border-radius: 60px;
+  background-color: #0d8fe3;
+  margin: 0 10px;
+  color: white;
+  font-size: 12px;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: center;
+}
+/* line 110, ../scss/style.scss */
+section.main .main-wrap .main-info-block .features-block .feature img {
+  position: absolute;
+  top: -20px;
+}
+/* line 117, ../scss/style.scss */
+section.main .main-wrap .main-form {
+  margin-top: 100px;
+}
+
+@media (max-width: 993px) {
+  /* line 123, ../scss/style.scss */
+  section.main {
+    background-position: 20%;
+  }
+  /* line 125, ../scss/style.scss */
+  section.main .form {
+    display: none;
+  }
+}
+@media (max-width: 767px) {
+  /* line 133, ../scss/style.scss */
+  section.main .main-wrap .main-info-block {
+    text-align: center;
+  }
+  /* line 135, ../scss/style.scss */
+  section.main .main-wrap .main-info-block .features-block {
+    display: none;
+  }
+}
+/* line 144, ../scss/style.scss */
+section.our-work .glass-block {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+/* line 148, ../scss/style.scss */
+section.our-work .glass-block .glass {
+  margin: 0px 60px;
+}
+/* line 152, ../scss/style.scss */
+section.our-work .temperature-block {
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+  margin-bottom: 150px;
+}
+/* line 157, ../scss/style.scss */
+section.our-work .temperature-block .block {
+  color: black;
+  width: 100%;
+}
+/* line 160, ../scss/style.scss */
+section.our-work .temperature-block .block h1 {
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+}
+/* line 166, ../scss/style.scss */
+section.our-work .temperature-block .block img {
+  display: block;
+  max-width: 100%;
+  width: fit-content;
+  margin: 0 auto;
+}
+/* line 172, ../scss/style.scss */
+section.our-work .temperature-block .block .li-block {
+  display: block;
+  width: fit-content;
+  margin: 0 auto;
+}
+/* line 176, ../scss/style.scss */
+section.our-work .temperature-block .block .li-block li {
+  list-style-image: url(../img/li.png);
+  font-size: 14px;
+  font-weight: 400;
+  padding: 10px 0px;
+}
+/* line 184, ../scss/style.scss */
+section.our-work .temperature-block .cold-block {
+  border-radius: 5px 0 0 5px;
+  border-top: 5px solid #0089cc;
+  background-image: url(../img/background-cold.png);
+}
+/* line 189, ../scss/style.scss */
+section.our-work .temperature-block .hot-block {
+  border-radius: 0 5px 5px 0;
+  border-top: 5px solid #ffb903;
+  background-image: url(../img/background-hot.png);
+}
+/* line 194, ../scss/style.scss */
+section.our-work .temperature-block .temperature-block-bottom {
+  display: flex;
+  width: fit-content;
+  margin: 40px auto;
+  margin-bottom: 0;
+}
+/* line 199, ../scss/style.scss */
+section.our-work .temperature-block .temperature-block-bottom button.primary-btn {
+  width: 262px;
+  height: 65px;
+  margin-left: 10px;
+  box-shadow: 0 2px 20px rgba(255, 153, 0, 0.4);
+  border-radius: 10px;
+  border: 1px solid #ffc600;
+  background-color: #e8e8e8;
+  background-image: linear-gradient(to bottom, #ffed26 0%, #ffb400 100%);
+  cursor: pointer;
+}
+/* line 211, ../scss/style.scss */
+section.our-work .temperature-block .temperature-block-bottom .temperature-block-price h2 {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+  margin: 0;
+  padding: 0;
+}
+/* line 218, ../scss/style.scss */
+section.our-work .temperature-block .temperature-block-bottom .temperature-block-price h1 {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 30px;
+  text-transform: none;
+}
+
+@media (max-width: 941px) {
+  /* line 230, ../scss/style.scss */
+  section.our-work .temperature-block {
+    flex-direction: column;
+  }
+  /* line 232, ../scss/style.scss */
+  section.our-work .temperature-block .hot-block {
+    margin-top: 50px;
+  }
+}
+@media (max-width: 565px) {
+  /* line 239, ../scss/style.scss */
+  section.our-work .temperature-block .temperature-block-bottom {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+/* line 245, ../scss/style.scss */
+section.order {
+  background-color: #f7f7f7;
+}
+/* line 247, ../scss/style.scss */
+section.order .order-block {
+  padding-bottom: 80px;
+}
+/* line 249, ../scss/style.scss */
+section.order .order-block .order-nav {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+/* line 253, ../scss/style.scss */
+section.order .order-block .order-nav .nav-list {
+  width: 300px;
+  height: 85px;
+  cursor: pointer;
+  transition: 0.2s ease;
+  text-align: center;
+  color: black;
+  font-size: 20px;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-decoration: underline;
+  border-top: 10px solid transparent;
+}
+/* line 267, ../scss/style.scss */
+section.order .order-block .order-nav .nav-list:hover {
+  border-top: 10px solid #0089cc;
+  background-image: url(../img/Прямоугольник_10.png);
+  color: #0089cc;
+  text-decoration: none;
+}
+/* line 274, ../scss/style.scss */
+section.order .order-block .order-content {
+  display: flex;
+}
+/* line 276, ../scss/style.scss */
+section.order .order-block .order-content .order-content-main {
+  display: flex;
+}
+/* line 278, ../scss/style.scss */
+section.order .order-block .order-content .order-content-main img.order-content-main-img {
+  width: 300px;
+  height: 440px;
+}
+/* line 282, ../scss/style.scss */
+section.order .order-block .order-content .order-content-main .order-content-main-material {
+  display: flex;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+/* line 286, ../scss/style.scss */
+section.order .order-block .order-content .order-content-main .order-content-main-material .material {
+  text-align: center;
+}
+/* line 288, ../scss/style.scss */
+section.order .order-block .order-content .order-content-main .order-content-main-material .material h1 {
+  font-size: 14px;
+  font-weight: 400;
+}
+/* line 292, ../scss/style.scss */
+section.order .order-block .order-content .order-content-main .order-content-main-material .material h2 {
+  font-size: 14px;
+  color: #0d8fe3;
+  font-weight: 700;
+}
+/* line 297, ../scss/style.scss */
+section.order .order-block .order-content .order-content-main .order-content-main-material .material p {
+  color: black;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+@media (min-width: 994px) {
+  /* line 312, ../scss/style.scss */
+  section.order .order-block .order-nav .nav-list {
+    line-height: 85px;
+  }
+  /* line 317, ../scss/style.scss */
+  section.order .order-block .order-content .material {
+    margin: 0px 25px;
+  }
+}
+@media (max-width: 993px) {
+  /* line 328, ../scss/style.scss */
+  section.order .order-block .order-content .material {
+    margin: 0px 7px;
+  }
+  /* line 332, ../scss/style.scss */
+  section.order .order-block .form {
+    display: none;
+  }
+}
+@media (max-width: 767px) {
+  /* line 340, ../scss/style.scss */
+  section.order .order-block .order-nav {
+    flex-direction: column;
+  }
+  /* line 343, ../scss/style.scss */
+  section.order .order-block .order-content .order-content-main {
+    flex-direction: column;
+  }
+  /* line 345, ../scss/style.scss */
+  section.order .order-block .order-content .order-content-main .order-content-main-material {
+    justify-content: center;
+  }
+  /* line 347, ../scss/style.scss */
+  section.order .order-block .order-content .order-content-main .order-content-main-material .material {
+    margin: 0 25px;
+  }
+  /* line 351, ../scss/style.scss */
+  section.order .order-block .order-content .order-content-main img {
+    max-width: 50%;
+    display: block;
+    margin: 0 auto;
+  }
+}
+/* line 361, ../scss/style.scss */
+section.portfolio .portfolio-wrap {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+/* line 365, ../scss/style.scss */
+section.portfolio .portfolio-wrap .portfolio-block {
+  width: 270px;
+  height: 270px;
+  margin: 15px 0px;
+  position: relative;
+  cursor: pointer;
+}
+/* line 371, ../scss/style.scss */
+section.portfolio .portfolio-wrap .portfolio-block img {
+  width: 100%;
+  height: 100%;
+}
+
+@media (max-width: 565px) {
+  /* line 394, ../scss/style.scss */
+  section.portfolio .portfolio-wrap {
+    justify-content: center;
+  }
+}
+/* line 400, ../scss/style.scss */
+section.features {
+  background-image: linear-gradient(to bottom, #0180c0 0%, #1799d6 100%);
+}
+/* line 402, ../scss/style.scss */
+section.features h1.title {
+  color: #fff;
+}
+/* line 405, ../scss/style.scss */
+section.features .features-wrap {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  text-align: center;
+}
+/* line 410, ../scss/style.scss */
+section.features .features-wrap .features-block {
+  margin: 40px 60px;
+  max-width: 170px;
+}
+/* line 413, ../scss/style.scss */
+section.features .features-wrap .features-block p {
+  font-size: 18px;
+  font-weight: 400;
+  color: #fff;
+}
+
+/* line 423, ../scss/style.scss */
+section.pay .pay-wrap {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+/* line 427, ../scss/style.scss */
+section.pay .pay-wrap .pay-block {
+  display: flex;
+  margin-bottom: 80px;
+}
+/* line 430, ../scss/style.scss */
+section.pay .pay-wrap .pay-block img {
+  margin-right: 30px;
+  width: 70px;
+  height: 70px;
+}
+/* line 435, ../scss/style.scss */
+section.pay .pay-wrap .pay-block p {
+  line-height: 30px;
+}
+
+/* line 442, ../scss/style.scss */
+section.salary {
+  background: white url(../img/background-image-salary.jpg) 0 0 no-repeat;
+  background-position: center;
+  height: 600px;
+}
+/* line 446, ../scss/style.scss */
+section.salary .salary-wrap {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 80px;
+}
+/* line 451, ../scss/style.scss */
+section.salary .salary-wrap .salary-text h1 {
+  color: #0089cc;
+  font-size: 48px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+/* line 457, ../scss/style.scss */
+section.salary .salary-wrap .salary-text h2 {
+  color: black;
+  font-size: 24px;
+  font-weight: 400;
+  margin: 80px 0px;
+}
+/* line 464, ../scss/style.scss */
+section.salary .salary-wrap .salary-text .salary-deadline h3 {
+  color: black;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 33px;
+  text-transform: uppercase;
+}
+
+@media (max-width: 993px) {
+  /* line 477, ../scss/style.scss */
+  section.salary .form {
+    display: none;
+  }
+}
+@media (max-width: 993px) {
+  /* line 484, ../scss/style.scss */
+  section.salary {
+    background-position: 30%;
+  }
+}
+@media (max-width: 767px) {
+  /* line 490, ../scss/style.scss */
+  section.salary .salary-wrap {
+    text-align: center;
+    padding-top: 10px;
+  }
+  /* line 493, ../scss/style.scss */
+  section.salary .salary-wrap .salary-text .salary-deadline img {
+    margin-bottom: 20px;
+  }
+}
+/* line 501, ../scss/style.scss */
+section.contacts .contacts-wrap {
+  display: flex;
+}
+/* line 504, ../scss/style.scss */
+section.contacts .contacts-wrap .map iframe {
+  max-width: 100%;
+}
+/* line 509, ../scss/style.scss */
+section.contacts .contacts-wrap .contacts-block p {
+  color: #0089cc;
+  font-size: 15px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+/* line 515, ../scss/style.scss */
+section.contacts .contacts-wrap .contacts-block h2 {
+  color: black;
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 40px;
+}
+
+@media (max-width: 993px) {
+  /* line 525, ../scss/style.scss */
+  section.contacts .contacts-wrap {
+    flex-direction: column;
+  }
+  /* line 527, ../scss/style.scss */
+  section.contacts .contacts-wrap .map {
+    display: block;
+    margin: 0 auto;
+  }
+}
+@media (min-width: 994px) {
+  /* line 535, ../scss/style.scss */
+  section.contacts .contacts-wrap .contacts-block {
+    margin-left: 130px;
+  }
+}
+@media (max-width: 767px) {
+  /* line 543, ../scss/style.scss */
+  section.contacts .contacts-wrap .contacts-block {
+    text-align: center;
+  }
+}
+/* line 549, ../scss/style.scss */
+section.questions {
+  border: 1px solid #ffffff;
+  background-color: #00a0eb;
+}
+/* line 552, ../scss/style.scss */
+section.questions .questions-wrap {
+  display: flex;
+  justify-content: center;
+  color: #ffffff;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 26px;
+  margin: 80px 0px;
+}
+/* line 560, ../scss/style.scss */
+section.questions .questions-wrap .questions-1 {
+  text-decoration: underline;
+  font-weight: 500;
+  margin-left: 40px;
+}
+/* line 565, ../scss/style.scss */
+section.questions .questions-wrap .questions, section.questions .questions-wrap .questions-1 {
+  cursor: pointer;
+}
+
+@media (max-width: 767px) {
+  /* line 572, ../scss/style.scss */
+  section.questions .questions-wrap {
+    flex-direction: column;
+    text-align: center;
+  }
+  /* line 575, ../scss/style.scss */
+  section.questions .questions-wrap .questions-1 {
+    text-align: center;
+    margin: 20px 0px;
+  }
+}
+/* line 584, ../scss/style.scss */
+footer .footer-wrap {
+  display: flex;
+  justify-content: space-between;
+  margin: 40px 0px;
+}
+/* line 588, ../scss/style.scss */
+footer .footer-wrap p {
+  font-size: 15px;
+  font-weight: 400;
+  margin: 0;
+  padding: 0;
+}
+/* line 594, ../scss/style.scss */
+footer .footer-wrap img {
+  height: 42px;
+}
+/* line 598, ../scss/style.scss */
+footer .footer-wrap .footer-contacts h2 {
+  color: #333333;
+  font-size: 18px;
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+}
+/* line 605, ../scss/style.scss */
+footer .footer-wrap .footer-contacts a {
+  margin: 0;
+  padding: 0;
+  color: #0090d5;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+@media (max-width: 767px) {
+  /* line 617, ../scss/style.scss */
+  footer .footer-wrap {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  /* line 621, ../scss/style.scss */
+  footer .footer-wrap img {
+    max-width: 30%;
+    margin: 30px 0px;
+  }
+}
+/* line 628, ../scss/style.scss */
+.hidden-form {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  top: 0%;
+  left: 0%;
+  z-index: 999;
+  display: none;
+}
+/* line 636, ../scss/style.scss */
+.hidden-form .hidden-form-wrap {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: fit-content;
+  box-shadow: 0 0 38px rgba(104, 176, 201, 0.34);
+  border-radius: 20px;
+  background-color: #ffffff;
+}
+
+/* line 651, ../scss/style.scss */
+.close-popup::before {
+  content: '';
+  position: absolute;
+  width: 25px;
+  height: 2px;
+  right: 5px;
+  top: -20px;
+  background-color: #5ea5bd;
+  transform: rotate(-45deg);
+  cursor: pointer;
+}
+
+/* line 662, ../scss/style.scss */
+.close-popup::after {
+  content: '';
+  position: absolute;
+  width: 25px;
+  height: 2px;
+  right: 5px;
+  top: -20px;
+  background-color: #5ea5bd;
+  transform: rotate(45deg);
+  cursor: pointer;
+}
+
+/* РАЗМЕТКА ОБЯЗАТЕЛЬНАЯ */
+/*	 |   */
+/*	 |   */
+/*  \/   */
+/* line 43, ../scss/_menu-buttons.scss */
+.active {
+  /* В ЭТОМ КЛАССЕ ОПИСАНО ТО КАК СЕБЯ БУДЕТ ВЕСТИ МЕНЮ ПРИ НАЖАТИИ НА КНОПКУ (В  АКТИВНОМ СОСТОЯНИИ)*/
+  display: flex;
+  flex-direction: column;
+  -ms-align-items: center;
+  align-items: center;
+}
+
+/* line 50, ../scss/_menu-buttons.scss */
+.menu-nav {
+  /* ЭТО КНОПОЧКИ ДЛЯ ОТКРЫТИЯ И ЗАКРЫТИЯ МЕНЮ */
+  display: none;
+  width: 30px;
+  height: 3px;
+  background-color: black;
+  position: absolute;
+  top: 45px;
+  right: 10px;
+  cursor: pointer;
+}
+
+/* line 60, ../scss/_menu-buttons.scss */
+.menu-nav::before {
+  /* ЭТО КНОПОЧКИ ДЛЯ ОТКРЫТИЯ И ЗАКРЫТИЯ МЕНЮ */
+  content: '';
+  width: 30px;
+  height: 3px;
+  background-color: black;
+  position: absolute;
+  top: -7px;
+}
+
+/* line 68, ../scss/_menu-buttons.scss */
+.menu-nav::after {
+  /* ЭТО КНОПОЧКИ ДЛЯ ОТКРЫТИЯ И ЗАКРЫТИЯ МЕНЮ */
+  content: '';
+  width: 30px;
+  height: 3px;
+  background-color: black;
+  position: absolute;
+  top: 7px;
+}
+
+@media (max-width: 993px) {
+  /* line 79, ../scss/_menu-buttons.scss */
+  header .header-wrap {
+    height: fit-content;
+  }
+  /* line 81, ../scss/_menu-buttons.scss */
+  header .header-wrap .logo {
+    margin: 25px 0px;
+  }
+  /* line 84, ../scss/_menu-buttons.scss */
+  header .header-wrap .header-elem {
+    margin: 25px 0px;
+    display: none;
+  }
+  /* line 88, ../scss/_menu-buttons.scss */
+  header .header-wrap button.header-elem {
+    display: none;
+  }
+
+  /* line 93, ../scss/_menu-buttons.scss */
+  .menu-nav {
+    display: flex;
+  }
+}
