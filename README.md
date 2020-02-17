@@ -13,4 +13,6 @@
 
 [ссылка](https://denisrybalka.github.io/yoga/) - сайт компании йога-туров
 
+[ссылка](https://denisrybalka.github.io/23-degree/) - сайт компании дизайн-интерьеров
+
 
