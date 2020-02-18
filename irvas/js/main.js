@@ -13,6 +13,11 @@ $('.know-more').click(function() {
 	$('.hidden-form').fadeIn();
 });
 
+$('.primary-btn').click(function() {
+	$('main').css('filter','blur(5px)');
+	$('.hidden-form').fadeIn();
+});
+
 $('.close-popup').click(function() {
 	$('.hidden-form').fadeOut();
 	$('main').css('filter','none');
